@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ h2 .headtitle{
+    color:green;
+}
+.part1{
+    width: 40%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+}
+.part1 img{
+    width: 100%;
+}
