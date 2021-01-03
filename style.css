@@ -1,8 +1,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.toppart{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
  h2 .headtitle{
-    color:green;
+    color:tomato;
 }
 .part1{
     width: 40%;
@@ -12,4 +21,13 @@ body{
 }
 .part1 img{
     width: 100%;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
