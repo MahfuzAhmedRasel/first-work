@@ -3,14 +3,28 @@ body{
     margin: 0;
     padding: 0;
 }
+body p{
+    color: dimgray;
+}
 .toppart{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+.midpart{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.lastpart{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 section{
     height: 500px;
+    padding: 50px;
 }
- h2 .headtitle{
+.headtitle{
     color:tomato;
 }
 .part1{
@@ -30,4 +44,28 @@ a{
     font-weight: 700;
     padding: 5px 10px;
     border-radius: 5px;
+}
+.box-area{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+
+#leftsideborder{
+    border-left: 8px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+    padding: 20px;
+}
+#rightsideborder{
+    border-left: 8px solid;
+    border-image:  linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    padding: 10px;
+}
+footer p{
+    text-align: center;
 }
